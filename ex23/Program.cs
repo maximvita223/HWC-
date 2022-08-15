@@ -2,7 +2,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите число: ");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()??"0");
 
 for (int x = 1; x <=Math.Abs(n); x++)
 {

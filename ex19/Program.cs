@@ -2,7 +2,7 @@
 
 Console.Clear();
 Console.WriteLine("Введите пятизначное число");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()??"0");
 int res = 0;
 int num1 = num;
 while (num1 > 0)
